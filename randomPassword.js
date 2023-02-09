@@ -23,12 +23,9 @@ function randomPassword(num){
 
     console.log(`Your password is - ${password}`);
 
+    function randomNumber(a=charecters.length){
+        return Math.floor(Math.random() * a);
+    }
 }
-
-function randomNumber(a=4){
-    return Math.floor(Math.random() * a);
-}
-
-
 
 randomPassword(15);
